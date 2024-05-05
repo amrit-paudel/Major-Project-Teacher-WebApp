@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "models": [
+      {
+        "name": "Face Detection",
+        "type": "faceDetection",
+        "inputs": [
+          {
+            "name": "image",
+            "type": "image"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "faces",
+            "type": "array"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,100 @@
+body{
+  font-family: 'Google Sans', sans-serif;
+  background-color: lightblue;
+  font-size: 20px;
+  color: black;
+}
+p, li{
+  font-family: 'Google Sans', sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 40px 40px 0 rgba(0,0,0,0.2);
+} 
+ 
+
+ 
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.nav-item
+ {
+  font-family: 'Google Sans', sans-serif;
+
+}
+
+.social-icon{
+  color: rgba(0, 0, 0, 0.863);
+  text-shadow: none;
+}
+.social-icon:hover{
+  font-size: xx-large;
+  color:black;
+  text-shadow: 2px 2px 5px #386794;
+}
+
+.btn:hover{
+  color:hsl(345, 100%, 2%);
+  /* opacity: 80%; */
+ }
+
+ .modal-header{
+  border: none;
+  margin-left: 35%;
+padding: 5px;
+ }
+ 
+ @media screen and (min-width: 800px) {
+   #welcome {
+    margin-top: 150px;
+    margin-left: 45px;
+  }
+  
+}
+@media screen and (max-width: 450px) {
+  #welcome {
+   font-size: large;
+ }
+ 
+}
+
+ @media (max-width: 480px) {
+  .map-frame {
+      width: 350px; /* Set the width to 300px */
+  }
+}
+ 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-2.5px); }
+  50% { transform: translateX(2.5px); }
+  75% { transform: translateX(-2.5px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
